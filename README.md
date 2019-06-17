@@ -34,7 +34,7 @@ I have used this strategy for projects where features get deployed as soon as th
 
 [Learn more](./CONTINUOUS-DEPLOYMENT.md)
 
-Though I have mostly used the release deployment strategy I am trying to move to a continuous deployment Strategy.
+Though I have mostly used the release deployment strategy I am trying to move to a continuous deployment strategy.
 
 
 ### Protected Branches
