@@ -1,6 +1,6 @@
 # ameyrupji.com-branching-strategy
 
-This document documents  ameyrupji.com current branching and release strategy. It provides a guideline of the two release models that I am using: [release deployment](RELEASE-DEPLOYMENT.md) and [continuous deployment](CONTINUOUS-DEPLOYMENT.md).
+This document is the current branching and release strategy for websites developed for ameyrupji.com. It provides a guideline of the two release models that I am using: [release deployment](RELEASE-DEPLOYMENT.md) and [continuous deployment](CONTINUOUS-DEPLOYMENT.md).
 
 These workflow tries to streamline the development process to build my website.
 
@@ -51,7 +51,11 @@ Projects that have continuous integration with a service such as CircleCI should
 
 ## Branch Naming
 
-`master` and `develop` are always named exactly that. For a feature, bugfix or hotfix with a is related to a ticket I prefer that the branch name start with
-the keyword `feature/`, `bugfix/` or `hotfix/` followed by ticket number and a small description (eg. `GH-7-add-header-bar`). Branch names should use dashes to separate words of the name ans should not contain any `.`.
+`master` and `develop` are always named exactly that. For a feature, bugfix or hotfix with a is related to a ticket I prefer that the branch name start with the keyword `feature/`, `bugfix/` or `hotfix/` followed by ticket number and a small description (eg. `GH-7-add-header-bar`). Branch names should use dashes to separate words of the name and should not contain any `.` (dots) as this is used to generate the urls for feature branch testing.
 
 Other than that, choose names that are descriptive and concise. You don't need a branch name that is a novel because most branches should be relatively short-lived (hours to days, not weeks).
+
+
+## Anti-Patterns
+
+Some of the [Anti-Patterns](ANTI-PATTERNS.md) that I try to avoid in my development processes.
